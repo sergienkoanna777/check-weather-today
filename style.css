@@ -1,0 +1,84 @@
+body{
+    background-image: url("pexels-thamyris-aquino-6043428.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    min-height: 100vh;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(233, 200, 200, 0.3), rgba(0, 0, 0, 0.6));
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#input{
+    border-radius: 20px;
+    border: 3px solid #fff;
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgba(229, 224, 235, 0.3);
+}
+
+#input:focus{
+    background-color: #fff;
+    
+}
+
+#when-where{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#city{
+    color: #fff;
+    font-size: 45px;
+}
+
+#date{
+    color: #fff;
+    font-size: 24px;
+}
+
+#now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#feelsLike{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#temperature{
+    color: #fff;
+    font-size: 110px;
+    font-weight: bold;
+    text-shadow:  5px 10px black;
+    margin: 0;
+}
+
+#conditions{
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#variation{
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+}
