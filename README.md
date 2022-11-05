@@ -1,6 +1,6 @@
 # Weather forecast in your city
 
-<img src="./.jpg" alt="Image" width="auto">
+<img src="./check-weather-today2.jpg" alt="Image" width="auto">
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
